@@ -1,0 +1,218 @@
+@media screen and (max-width: 768px) {
+  /*header*/
+
+  .windows01 {
+    width: 100%;
+    height: 33.33%;
+    top: 0;
+    left: 0;
+  }
+  .windows02 {
+    width: 100%;
+    height: 33.33%;
+    position: absolute;
+    top: 33.33%;
+    left: 0;
+    z-index: 1;
+  }
+  .windows03 {
+    width: 100%;
+    height: 33.33%;
+    position: absolute;
+    top: 66.66%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .blink {
+    width: 200px;
+    height: 200px;
+    top: 60.55%;
+    left: 14%;
+    z-index: 2;
+    animation: updown 2s infinite;
+  }
+
+  .blink h3 {
+    font-size: 40px;
+  }
+
+  @keyframes updown {
+    0% {
+      transform: translateY(30px);
+    }
+    50% {
+      transform: translate(10px);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+  }
+  /*main*/
+  .mintroduce-windows {
+    position: absolute;
+    margin: 0 auto;
+  }
+  .introduce-windows {
+    display: none;
+  }
+  .click-text {
+    display: block;
+    position: absolute;
+    bottom: 28px;
+    left: 120px;
+    font-size: 30px;
+    color: #f81894;
+  }
+  .text-photo,
+  .text-fashion,
+  .text-travel {
+    width: 100%;
+  }
+  .photo-windows,
+  .fashion-windows,
+  .travel-windows {
+    height: 100%;
+    width: 100%;
+  }
+  .photo-windows img:nth-child(1) {
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    animation-delay: 1s;
+  }
+  .photo-windows img:nth-child(2) {
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+    animation-delay: 5s;
+    z-index: 5;
+  }
+  .photo-windows img:nth-child(3) {
+    top: 240px;
+    left: 0px;
+    z-index: 3;
+    animation-delay: 4s;
+    z-index: 4;
+  }
+  .photo-windows img:nth-child(4) {
+    top: 360px;
+    left: 100px;
+    z-index: 4;
+    animation-delay: 3s;
+    z-index: 3;
+  }
+  .photo-windows img:nth-child(5) {
+    top: 480px;
+    left: 20px;
+    z-index: 5;
+    animation-delay: 2s;
+  }
+
+  .fashion-windows img:nth-child(1) {
+    top: 420px;
+    left: 20px;
+    z-index: 1;
+    animation-delay: 1s;
+  }
+  .fashion-windows img:nth-child(2) {
+    top: 40px;
+    left: 0px;
+    z-index: 2;
+    animation-delay: 2s;
+  }
+  .fashion-windows img:nth-child(3) {
+    top: 180px;
+    left: 250px;
+    z-index: 3;
+    animation-delay: 3s;
+  }
+  .fashion-windows img:nth-child(4) {
+    top: 450px;
+    left: 180px;
+    z-index: 4;
+    animation-delay: 4s;
+  }
+  .fashion-windows img:nth-child(5) {
+    top: 20px;
+    left: 120px;
+    z-index: 5;
+    animation-delay: 5s;
+  }
+  .fashion-windows img:nth-child(6) {
+    top: 280px;
+    left: 170px;
+    z-index: 6;
+    animation-delay: 6s;
+  }
+
+  .travel-windows img:nth-child(1) {
+    width: 400px;
+    top: 470px;
+    left: 0px;
+    z-index: 1;
+    animation-delay: 1s;
+  }
+  .travel-windows img:nth-child(2) {
+    top: 400px;
+    left: -20px;
+    z-index: 2;
+    animation-delay: 2s;
+  }
+  .travel-windows img:nth-child(3) {
+    width: 200px;
+    top: 220px;
+    left: 20px;
+    z-index: 3;
+    animation-delay: 3s;
+  }
+  .travel-windows img:nth-child(4) {
+    width: 400px;
+    top: 10px;
+    left: 20px;
+    z-index: 4;
+    animation-delay: 4s;
+  }
+  .travel-windows img:nth-child(5) {
+    top: 20px;
+    left: 220px;
+    z-index: 5;
+    animation-delay: 5s;
+  }
+  .travel-windows img:nth-child(6) {
+    top: 470px;
+    left: 250px;
+    z-index: 6;
+    animation-delay: 6s;
+  }
+
+  /*section*/
+  section {
+    position: relative;
+  }
+
+  /*footer*/
+  #name {
+    width: 50%;
+    height: 9%;
+    margin: 20px auto;
+  }
+
+  #message {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+  }
+
+  #send {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+  }
+
+  ::placeholder {
+    text-align: center;
+  }
+}
